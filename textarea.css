@@ -1,0 +1,52 @@
+#form{
+    border: solid black;
+    position: center;
+    margin: auto;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+#form:hover{
+    opacity: 0.9;
+}
+
+input[type=submit] {
+    background-color:white;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+  }
+  .animated {
+	font-family:courier new;
+	font-size: 70px;
+	
+            height: 100p%;
+            width: 100%;
+            -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-delay: 2s;
+            color: white;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+        
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+    

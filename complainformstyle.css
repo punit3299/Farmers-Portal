@@ -1,0 +1,118 @@
+
+#one{
+height:50px;
+width:100%;
+margin:0px;
+padding:20px;
+}
+body{
+margin:0px;
+background-image: url(signup.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+#three2{
+font-family:arial;
+height:385px;
+width:300px;
+margin-top:100px;
+float:left;
+color:grey;
+padding:10px;
+margin-left:100px;
+background-color:rgba(0,0,0);
+opacity: 0.8;
+ box-shadow: 10px 10px 18px #888888;
+font-size:30px;
+}
+#three2:hover{
+	opacity:1;
+}
+input[type="text"],input[type="password"],input[type="number"]
+{
+margin-top:20px;
+height:20px;
+width:89%;
+background-color:rgb(0,0,0,0.7);
+color:white;
+font-family:arial;
+padding:10px;
+margin-left:5px;
+border:0px;
+border-bottom: 1px solid grey;
+}
+input[type="submit"]
+{
+width:100px;
+height:40px;
+background-color:rgb(0,0,0);
+padding:10px;
+color:grey;
+border-radius:20px;
+margin-left: calc(50% - 50px);
+font-family:verdana;
+font-size: 15px;
+border:1px sloid grey;
+}
+input[type="submit"]:hover
+{
+width:100px;
+height:40px;
+padding:10px;
+color:white;
+border-radius:20px;
+cursor:pointer;
+}
+#one2{
+font-size:30px;
+color:white;
+height:50px;
+width:300px;
+font-family:arial;
+font-weight:bold;
+margin-left:100px;
+}
+input::placeholder{
+	font-family:verdana;
+	font-style: bold;
+	font-size: 15px;
+}
+#four{
+	float: right;
+	height:400px;
+	width:55%;
+	margin-top:10%;
+	font-family:courier new;
+	font-size: 70px;
+	color:white;
+}
+.animated {
+	font-family:courier new;
+	font-size: 70px;
+	
+            height: 100p%;
+            width: 100%;
+            -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-delay: 2s;
+            color: white;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }

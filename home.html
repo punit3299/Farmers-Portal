@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Farmer's Portal</title>
+</head>
+
+<body background="back.jpg">
+  <div class="container">
+    <div class="row py-2" style="outline: 1px solid black ;">
+      <div class="col-lg-3 col-12 text-lg-left text-center">
+        <img src="images/Logo.png" height="90px" class="">
+      </div>
+      <div class="col-lg-6 col-12 text-center">
+        <h3 style="font-family: Jokerman;">Farmer's Portal</h3>
+        <p class="lead" style="font-family: Jokerman;">One Stop Shop for Farmers !</p>
+      </div>
+      <div class="col-lg-3 col-12 text-lg-right text-center">
+
+        <div id="google_translate_element"></div>
+        <br>
+
+        <a href="adminlogin.html" class="btn btn-dark">Admin Login</a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark mx-lg-5 mx-0">
+    <button class="navbar-toggler  mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-white"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav w-100">
+        <li class="nav-item active mx-auto">
+          <a class="navbar-brand text-white" href="home.html">Home</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="navbar-brand text-white" href="aboutus.html">About Us</a>
+        </li>
+
+        <li class="nav-item dropdown mx-auto">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Major Crops
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="wheat.html">Wheat</a>
+            <a class="dropdown-item" href="maize.html">Maize</a>
+            <a class="dropdown-item" href="rice.html">Rice</a>
+            <a class="dropdown-item" href="pulse.html">Pulse</a>
+          </div>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="navbar-brand text-white" href="training.html">Training</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="navbar-brand text-white" href="contactus.php">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <div class="container">
+    <div class="row" style="outline: 1px solid black ;">
+      <div class="col-lg-12 col-12">
+        <img src="images/home2.jpg" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row" style="outline: 1px solid black ;">
+      <div class="col-lg-3 col-md-3 col-12 py-2" align="left" style="outline: 1px solid black;">
+        <div class="table-responsive mt-2" style="border-radius: 15px;">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">MAP VIEW</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="map irrigated-non irrigated.html" style="color:black;">Irrigated-Unirrigated
+                    Area</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="agriculturalland.html" style="color:black;">Agricultural Land</a></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-responsive" style="border-radius: 15px;">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">WEATHER</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><a href="weatherdetails.html" style="color:black;">Weather Details</a></th>
+              </tr>
+              <tr>
+                <th scope="row"><a href="extreme_weather.php" style="color:black;">Extreme Weather Alert</a></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-12 py-2" align="center" style="outline: 1px solid black ">
+        <div class="row">
+          <div class="col-6">
+            <div class="card" style="border-radius: 65px;">
+              <div class="card-body">
+                <img src=images/farmer.jpg class="rounded-circle img-fluid">
+                <a href="farmerlogin.html" class="btn btn-dark">Farmers</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="border-radius: 65px;">
+              <div class=" card-body">
+                <img src=images/cropsupp.jpg class="rounded-circle img-fluid">
+                <a href="cropdealerlogin.html" class="btn btn-dark">Crops Dealer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="card" style="border-radius: 65px;">
+              <div class="card-body">
+                <img src=images/seeddealer.jpg class="rounded-circle img-fluid">
+                <a href="seedlogin.html" class="btn btn-dark">Seed Dealers</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card" style="border-radius: 65px;">
+              <div class="card-body">
+                <img src=images/fert.jpg class="rounded-circle img-fluid">
+                <a href="fertlogin.html" class="btn btn-dark">Fertilizers Dealer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-12 py-2" align="right" style="outline: 1px solid black ;">
+        <div class="table-responsive mt-2" style="border-radius: 15px;">
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">VISITOR'S COUNT</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <!-- hitwebcounter Code START -->
+                  <a href="#" target="_blank">
+                    <img
+                      src="http://hitwebcounter.com/counter/counter.php?page=7057009&style=0002&nbdigits=5&type=page&initCount=0"
+                      title="webs counters" Alt="webs counters" width="100px" align="middle" border="0"
+                      class="img-fluid"></a>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+          <center>
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <img src=images/help.jpg class="img-fluid h-75 w-75">
+                <a href="helpus.php" class="btn btn-success">Help Us</a>
+              </div>
+            </div>
+
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <img src=images/save.png class="img-fluid h-50 w-75">
+                <a href="donation.html" class="btn btn-success">Save Farmers</a>
+              </div>
+            </div>
+
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguageL: 'en' }, 'google_translate_element');
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>
